@@ -2,7 +2,10 @@ const homes = [
   { title: "Apartment in Pune City", price: "₹6,900 for 2 nights", rating: "⭐ 4.89", badge: "Guest favourite", img: "images/home1.jpg" },
   { title: "Flat in Pune City", price: "₹4,273 for 2 nights", rating: "⭐ 5.0", badge: "<br>", img: "images/flat.jpg" },
   { title: "Guest suite in Pune City", price: "₹4,565 for 2 nights", rating: "⭐ 4.8", badge: "Guest favourite <br> <br>", img: "images/home3.jpg" },
-  
+  { title: "Room in Pune City", price: "₹2,926 for 2 nights", rating: "⭐ 4.88", badge: "Guest favourite", img: "images/home4.jpg" },
+{ title: "Luxury Villa in Pune", price: "₹9,800 for 2 nights", rating: "⭐ 5.0", badge: "Guest favourite", img: "images/home5.jpg" },
+{ title: "Studio Apartment", price: "₹3,500 for 2 nights", rating: "⭐ 4.7", badge: "Guest favourite", img: "images/home6.jpg" },
+{ title: "Modern Flat in City Center", price: "₹5,400 for 2 nights", rating: "⭐ 4.95", badge: "Guest favourite", img: "images/home7.jpg" },
 ];
 
 const container = document.getElementById("homes-container");
