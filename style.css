@@ -16,3 +16,10 @@ body{
     flex: 1;
     border: none;
 }
+.search-btn{
+    background-color: #ff385c;
+    border: none;
+    border-radius: 30%;
+    padding: 10px;
+    color: white;
+}
