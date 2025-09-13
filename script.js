@@ -2,16 +2,16 @@ const homes = [
   { title: "Apartment in Pune City", price: "₹6,900 for 2 nights", rating: "⭐ 4.89", badge: "Guest favourite", img: "images/home1.jpg" },
   { title: "Flat in Pune City", price: "₹4,273 for 2 nights", rating: "⭐ 5.0", badge: "<br>", img: "images/flat.jpg" },
   { title: "Guest suite in Pune City", price: "₹4,565 for 2 nights", rating: "⭐ 4.8", badge: "Guest favourite <br> <br>", img: "images/home3.jpg" },
-  { title: "Room in Pune City", price: "₹2,926 for 2 nights", rating: "⭐ 4.88", badge: "Guest favourite", img: "images/home4.jpg" },
+  { title: "Room in Pune City", price: "₹2,926 for 2 nights", rating: "⭐ 4.88", badge: "<br>", img: "images/home4.jpg" },
 { title: "Luxury Villa in Pune", price: "₹9,800 for 2 nights", rating: "⭐ 5.0", badge: "Guest favourite", img: "images/home5.jpg" },
-{ title: "Studio Apartment", price: "₹3,500 for 2 nights", rating: "⭐ 4.7", badge: "Guest favourite", img: "images/home6.jpg" },
+{ title: "Studio Apartment", price: "₹3,500 for 2 nights", rating: "⭐ 4.7", badge: "<br>", img: "images/home6.jpg" },
 { title: "Modern Flat in City Center", price: "₹5,400 for 2 nights", rating: "⭐ 4.95", badge: "Guest favourite", img: "images/home7.jpg" },
 ];
 
 const goaHomes = [
-  { title: "Beachside Villa in North Goa", price: "₹12,500 for 2 nights", rating: "⭐ 4.95", badge: "Guest favourite", img: "images/goa1.jpg" },
+  { title: "Beachside Villa in North Goa", price: "₹12,500 for 2 nights", rating: "⭐ 4.95", badge: "<br>", img: "images/goa1.jpg" },
   { title: "Cottage near Anjuna Beach", price: "₹7,800 for 2 nights", rating: "⭐ 4.9", badge: "Guest favourite", img: "images/goa2.jpg" },
-  { title: "Luxury Apartment in Calangute", price: "₹9,200 for 2 nights", rating: "⭐ 4.85", badge: "Guest favourite", img: "images/goa3.jpg" },
+  { title: "Luxury Apartment in Calangute", price: "₹9,200 for 2 nights", rating: "⭐ 4.85", badge: "<br>", img: "images/goa3.jpg" },
   { title: "Private Room in Candolim", price: "₹4,500 for 2 nights", rating: "⭐ 4.7", badge: "Guest favourite", img: "images/goa4.jpg" }
   
 ];
