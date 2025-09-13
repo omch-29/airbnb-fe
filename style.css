@@ -4,3 +4,15 @@ body{
 .navbar-brand img{
     height: 45px;
 }
+.search-bar{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.search-bar input{
+    flex: 1;
+    border: none;
+}
