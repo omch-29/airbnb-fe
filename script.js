@@ -8,20 +8,33 @@ const homes = [
 { title: "Modern Flat in City Center", price: "₹5,400 for 2 nights", rating: "⭐ 4.95", badge: "Guest favourite", img: "images/home7.jpg" },
 ];
 
-const container = document.getElementById("homes-container");
+const goaHomes = [
+  { title: "Beachside Villa in North Goa", price: "₹12,500 for 2 nights", rating: "⭐ 4.95", badge: "Guest favourite", img: "images/goa1.jpg" },
+  { title: "Cottage near Anjuna Beach", price: "₹7,800 for 2 nights", rating: "⭐ 4.9", badge: "Guest favourite", img: "images/goa2.jpg" },
+  { title: "Luxury Apartment in Calangute", price: "₹9,200 for 2 nights", rating: "⭐ 4.85", badge: "Guest favourite", img: "images/goa3.jpg" },
+  { title: "Private Room in Candolim", price: "₹4,500 for 2 nights", rating: "⭐ 4.7", badge: "Guest favourite", img: "images/goa4.jpg" }
+  
+];
 
-for (let i = 0; i < homes.length; i++) {
-  const home = homes[i];
-  container.innerHTML += `
-    <div class="col-md-3 mb-4">
-      <div class="card h-100 shadow-sm">
-        <img src="${home.img}" class="card-img-top" alt="${home.title}">
-        <div class="card-body">
-          <span class="badge bg-light text-dark mb-2">${home.badge}</span>
-          <h6>${home.title}</h6>
-          <p class="mb-1">${home.price} · ${home.rating}</p>
+
+function renderCards(homesArray, containerId) {
+  const container = document.getElementById(containerId);
+  for (let i = 0; i < homesArray.length; i++) {
+    const home = homesArray[i];
+    container.innerHTML += `
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="${home.img}" class="card-img-top" alt="${home.title}">
+          <div class="card-body">
+            <span class="badge bg-light text-dark mb-2">${home.badge}</span>
+            <h6>${home.title}</h6>
+            <p class="mb-1">${home.price} · ${home.rating}</p>
+          </div>
         </div>
       </div>
-    </div>
-  `;
+    `;
+  }
 }
+
+renderCards(homes, "homes-container");
+renderCards(goaHomes, "goa-container");
