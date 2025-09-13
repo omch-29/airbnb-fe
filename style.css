@@ -23,3 +23,54 @@ body{
     padding: 10px;
     color: white;
 }
+/* Default styles are for large screens */
+
+/* Tablets (≤ 992px) */
+@media (max-width: 992px) {
+  .search-bar {
+    max-width: 700px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .search-bar input {
+    flex: 1 1 45%; /* 2 inputs per row */
+    min-width: 140px;
+  }
+}
+
+/* Mobiles (≤ 768px) */
+@media (max-width: 768px) {
+  .search-bar {
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 15px;
+    gap: 10px;
+  }
+  .search-bar input {
+    width: 100%;
+  }
+  .search-btn {
+    align-self: flex-end;
+    border-radius: 50%;
+  }
+
+  .navbar-brand img {
+    height: 35px; /* smaller logo */
+  }
+}
+
+/* Very small mobiles (≤ 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .section-title {
+    font-size: 18px;
+  }
+  .search-bar {
+    padding: 10px;
+  }
+  .search-bar input {
+    font-size: 14px;
+  }
+}
