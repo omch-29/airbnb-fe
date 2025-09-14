@@ -23,7 +23,7 @@ body{
     padding: 10px;
     color: white;
 }
-/* Default styles are for large screens */
+
 
 /* Tablets (≤ 992px) */
 @media (max-width: 992px) {
@@ -33,8 +33,11 @@ body{
     gap: 10px;
   }
   .search-bar input {
-    flex: 1 1 45%; /* 2 inputs per row */
+    flex: 1 1 45%; 
     min-width: 140px;
+  }
+  .card-img-top {
+    height: 200px;
   }
 }
 
@@ -53,9 +56,11 @@ body{
     align-self: flex-end;
     border-radius: 50%;
   }
-
+  .card-img-top {
+    height: 180px;
+  }
   .navbar-brand img {
-    height: 35px; /* smaller logo */
+    height: 35px; 
   }
 }
 
@@ -73,4 +78,13 @@ body{
   .search-bar input {
     font-size: 14px;
   }
+  .card-img-top {
+    height: 150px;
+  }
+}
+.card-img-top {
+  height: 200px;       
+  object-fit: cover;   
+  border-top-left-radius: 0.5rem; 
+  border-top-right-radius: 0.5rem;
 }

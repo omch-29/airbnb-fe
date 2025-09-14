@@ -15,7 +15,12 @@ const goaHomes = [
   { title: "Private Room in Candolim", price: "₹4,500 for 2 nights", rating: "⭐ 4.7", badge: "Guest favourite", img: "images/goa4.jpg" }
   
 ];
-
+const thanehomes = [
+  { title: "cabin in Nadhal", price: "₹15,520 for 2 nights", rating: "⭐ 4.75", badge: "<br>", img: "images/thome1.jpg" },
+  { title: "Flat in Thane", price: "₹6,823 for 2 nights", rating: "⭐ 5.00", badge: "Guest favourite", img: "images/thome2.jpg" },
+  { title: "Apartment in Thane", price: "₹4,106 for 2 nights", rating: "⭐ 4.98", badge: "Guest favourite", img: "images/thome3.jpg" },
+  { title: "Apartment in Thane", price: "₹7,989 for 2 nights", rating: "⭐ 4.37", badge: "<br>", img: "images/thome4.jpg" },
+];
 
 function renderCards(homesArray, containerId) {
   const container = document.getElementById(containerId);
@@ -38,3 +43,4 @@ function renderCards(homesArray, containerId) {
 
 renderCards(homes, "homes-container");
 renderCards(goaHomes, "goa-container");
+renderCards(thanehomes, "thane-container");
