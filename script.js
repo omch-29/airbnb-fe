@@ -25,6 +25,10 @@ const dubaihomes = [
   { title: "Flat in Downtime Dubai", price: "₹16,589 for 2 nights", rating: "⭐ 4.92", badge: "Guest favourite", img: "images/dhome1.jpg" },
   { title: "Flat in UAE", price: "₹8,362 for 2 nights", rating: "⭐ 4.38", badge: "<br>", img: "images/dhome2.jpg" },
   { title: "Guest suite in Dubai", price: "₹7,317 for 2 nights", rating: "⭐ 4.82", badge: "Guest favourite", img: "images/dhome3.jpg" },
+  { title: "Flat in Al jafiliya", price: "₹9,471 for 2 nights", rating: "⭐ 4.73", badge: "<br>", img: "images/dhome4.jpg" },
+];
+const hdhomes = [
+  { title: "Flat in Hydearabad", price: "₹9,449 for 2 nights", rating: "⭐ 4.93", badge: "<br>", img: "images/hhome1.jpg" },
 ];
 
 function renderCards(homesArray, containerId) {
@@ -50,3 +54,4 @@ renderCards(homes, "homes-container");
 renderCards(goaHomes, "goa-container");
 renderCards(thanehomes, "thane-container");
 renderCards(dubaihomes, "dubai-container");
+renderCards(hdhomes, "hd-container");
