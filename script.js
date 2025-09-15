@@ -29,6 +29,8 @@ const dubaihomes = [
 ];
 const hdhomes = [
   { title: "Flat in Hydearabad", price: "₹9,449 for 2 nights", rating: "⭐ 4.93", badge: "<br>", img: "images/hhome1.jpg" },
+  { title: "Room in Serilingampalle mandal", price: "₹3,893 for 2 nights", rating: "⭐ 4.89", badge: "Guest favourite", img: "images/hhome2.jpg" },
+  { title: "Room in boutique hotel Hyderabad", price: "₹4,958 for 2 nights", rating: "⭐ 4.97", badge: "<br>", img: "images/hhome3.jpg" },
 ];
 
 function renderCards(homesArray, containerId) {
