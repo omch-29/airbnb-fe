@@ -91,4 +91,6 @@ body{
 .card-img-top:hover{
   opacity: 0.8;
 }
-
+.img-fluid:hover{
+  opacity: 0.8;
+}
