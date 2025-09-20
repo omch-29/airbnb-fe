@@ -94,3 +94,7 @@ body{
 .img-fluid:hover{
   opacity: 0.8;
 }
+.rare{
+  background-color: white;
+  color: black;
+}
