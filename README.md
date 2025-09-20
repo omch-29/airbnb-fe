@@ -11,12 +11,12 @@ The project replicates the UI/UX of Airbnb, featuring property listings, search 
 
 #  🖼 Image Gallery – Beautiful property detail gallery with multiple images
 
-🛏 Property Details – Beds, baths, guests, and highlights
+#  🛏 Property Details – Beds, baths, guests, and highlights
 
-⭐ Guest Reviews Section – Display ratings and reviews
+#  ⭐ Guest Reviews Section – Display ratings and reviews
 
-💰 Booking Section – Price breakdown with "Reserve" button
+#  💰 Booking Section – Price breakdown with "Reserve" button
 
-📱 Responsive Design – Fully responsive with Bootstrap + media queries
+#  📱 Responsive Design – Fully responsive with Bootstrap + media queries
 
-🖼 Reusable Navbar – Consistent navigation across all pages
+#  🖼 Reusable Navbar – Consistent navigation across all pages
