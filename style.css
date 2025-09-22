@@ -99,3 +99,14 @@ body{
   color: black;
   border-radius: 1rem;
 }
+.img-fluid{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.front{
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
