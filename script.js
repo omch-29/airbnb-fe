@@ -5,7 +5,7 @@ const homes = [
   { title: "Room in Pune City", price: "₹2,926 for 2 nights", rating: "⭐ 4.88", badge: "<br>", img: "images/home4.jpg",link: "details/d4.html" },
 { title: "Luxury Villa in Pune", price: "₹9,800 for 2 nights", rating: "⭐ 5.0", badge: "Guest favourite", img: "images/home5.jpg",link: "details/d5.html" },
 { title: "Studio Apartment", price: "₹3,500 for 2 nights", rating: "⭐ 4.7", badge: "<br>", img: "images/home6.jpg",link: "details/d6.html", },
-{ title: "Modern Flat in City Center", price: "₹5,400 for 2 nights", rating: "⭐ 4.95", badge: "Guest favourite", img: "images/home7.jpg" },
+{ title: "Modern Flat in City Center", price: "₹5,400 for 2 nights", rating: "⭐ 4.95", badge: "Guest favourite", img: "images/home7.jpg", link: "details/d7.html" },
 ];
 
 const goaHomes = [
