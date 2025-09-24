@@ -60,8 +60,29 @@ function renderCards(homesArray, containerId) {
     `;
   }
 }
-
+document.querySelectorAll(".left-btn, .right-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const targetId = btn.getAttribute("data-target");
+    const scrollContainer = document.getElementById(targetId);
+    const scrollAmount = btn.classList.contains("left-btn") ? -300 : 300;
+    scrollContainer.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  });
+});
 renderCards(homes, "homes-container");
+// Scroll function for Pune section
+// const scrollContainer = document.getElementById("homes-container");
+// const leftBtn = document.querySelector(".left-btn");
+// const rightBtn = document.querySelector(".right-btn");
+
+// leftBtn.addEventListener("click", () => {
+//   scrollContainer.scrollBy({ left: -300, behavior: "smooth" });
+// });
+
+// rightBtn.addEventListener("click", () => {
+//   scrollContainer.scrollBy({ left: 300, behavior: "smooth" });
+// });
+
+
 renderCards(goaHomes, "goa-container");
 renderCards(thanehomes, "thane-container");
 renderCards(dubaihomes, "dubai-container");
