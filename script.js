@@ -13,7 +13,7 @@ const goaHomes = [
   { title: "Cottage near Anjuna Beach", price: "₹7,800 for 2 nights", rating: "⭐ 4.9", badge: "Guest favourite", img: "images/goa2.jpg",link: "details/gd2.html" },
   { title: "Luxury Apartment in Calangute", price: "₹9,200 for 2 nights", rating: "⭐ 4.85", badge: "<br>", img: "images/goa3.jpg",link: "details/gd3.html" },
   { title: "Private Room in Candolim", price: "₹4,500 for 2 nights", rating: "⭐ 4.7", badge: "Guest favourite", img: "images/goa4.jpg",link: "details/gd4.html" },
-  { title: "Flat in Candolim", price: "₹6,827 for 2 nights", rating: "⭐ 4.85", badge: "<br>", img: "images/goa5.jpg" },
+  { title: "Flat in Candolim", price: "₹6,827 for 2 nights", rating: "⭐ 4.85", badge: "<br>", img: "images/goa5.jpg",link: "details/gd5.html" },
   
 ];
 const thanehomes = [
