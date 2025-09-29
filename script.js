@@ -17,7 +17,7 @@ const goaHomes = [
   
 ];
 const thanehomes = [
-  { title: "cabin in Nadhal", price: "₹15,520 for 2 nights", rating: "⭐ 4.75", badge: "<br>", img: "images/thome1.jpg",link: "details/td1.html" },
+  { title: "Cabin in Nadhal", price: "₹15,520 for 2 nights", rating: "⭐ 4.75", badge: "<br>", img: "images/thome1.jpg",link: "details/td1.html" },
   { title: "Flat in Thane", price: "₹6,823 for 2 nights", rating: "⭐ 5.00", badge: "Guest favourite", img: "images/thome2.jpg",link: "details/td2.html" },
   { title: "Apartment in Thane", price: "₹4,106 for 2 nights", rating: "⭐ 4.98", badge: "Guest favourite", img: "images/thome3.jpg",link: "details/td3.html" },
   { title: "Apartment in Thane", price: "₹7,989 for 2 nights", rating: "⭐ 4.37", badge: "<br>", img: "images/thome4.jpg",link: "details/td4.html" },
