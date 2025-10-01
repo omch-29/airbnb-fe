@@ -23,7 +23,7 @@ const thanehomes = [
   { title: "Apartment in Thane", price: "₹7,989 for 2 nights", rating: "⭐ 4.37", badge: "<br>", img: "images/thome4.jpg",link: "details/td4.html" },
 ];
 const dubaihomes = [
-  { title: "Flat in Downtime Dubai", price: "₹16,589 for 2 nights", rating: "⭐ 4.92", badge: "Guest favourite", img: "images/dhome1.jpg" },
+  { title: "Flat in Downtime Dubai", price: "₹16,589 for 2 nights", rating: "⭐ 4.92", badge: "Guest favourite", img: "images/dhome1.jpg",link: "details/dd1.html" },
   { title: "Flat in UAE", price: "₹8,362 for 2 nights", rating: "⭐ 4.38", badge: "<br>", img: "images/dhome2.jpg" },
   { title: "Guest suite in Dubai", price: "₹7,317 for 2 nights", rating: "⭐ 4.82", badge: "Guest favourite", img: "images/dhome3.jpg" },
   { title: "Flat in Al jafiliya", price: "₹9,471 for 2 nights", rating: "⭐ 4.73", badge: "<br>", img: "images/dhome4.jpg" },
