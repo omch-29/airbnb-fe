@@ -31,7 +31,7 @@ const dubaihomes = [
 const hdhomes = [
   { title: "Flat in Hydearabad", price: "₹9,449 for 2 nights", rating: "⭐ 4.93", badge: "<br>", img: "images/hhome1.jpg",link: "details/hd1.html" },
   { title: "Room in Serilingampalle mandal", price: "₹3,893 for 2 nights", rating: "⭐ 4.89", badge: "Guest favourite", img: "images/hhome2.jpg",link: "details/hd2.html" },
-  { title: "Room in boutique hotel Hyderabad", price: "₹4,958 for 2 nights", rating: "⭐ 4.97", badge: "<br>", img: "images/hhome3.jpg" },
+  { title: "Room in boutique hotel Hyderabad", price: "₹4,958 for 2 nights", rating: "⭐ 4.97", badge: "<br>", img: "images/hhome3.jpg",link: "details/hd3.html" },
 ];
 const bhomes = [
   { title: "Apartment in Bangalore Urban", price: "₹4,650 for 2 nights", rating: "⭐ 4.68", badge: "Guest favourite", img: "images/bhome1.jpg" },
