@@ -36,7 +36,7 @@ const hdhomes = [
 const bhomes = [
   { title: "Apartment in Bangalore Urban", price: "₹4,650 for 2 nights", rating: "⭐ 4.68", badge: "Guest favourite", img: "images/bhome1.jpg",link: "details/b1.html" },
   { title: "Apartment in Nagareshwara - Nagenahalli", price: "₹5,438 for 2 nights", rating: "⭐ 4.93", badge: "<br>", img: "images/bhome2.jpg",link: "details/b2.html" },
-  { title: "Tiny home in Bangalore Urban", price: "₹5,250 for 2 nights", rating: "⭐ 4.98", badge: "Guest favourite", img: "images/bhome3.jpg" },
+  { title: "Tiny home in Bangalore Urban", price: "₹5,250 for 2 nights", rating: "⭐ 4.98", badge: "Guest favourite", img: "images/bhome3.jpg",link: "details/b3.html" },
   { title: "Rental unit in Bangalore Urban", price: "₹5,706 for 2 nights", rating: "⭐ 4.92", badge: "Guest favourite", img: "images/bhome4.jpg" },
 ];
 
